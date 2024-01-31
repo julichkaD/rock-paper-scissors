@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,15 +16,17 @@
     <div class="container">
        <h2>Make your choice:</h2>
        <div class="your-choice">
-        <span><img src="images/rock.png" alt="rock">ROCK</span>
-        <span><img src="images/paper.png" alt="paper">PAPER</span>
-        <span><img src="images/scissors.png" alt="scissors">SCISSORS</span>
+        <span class="my-pick"><img src="images/rock.png" id="rock" alt="rock">ROCK</span>
+        <span class="my-pick"><img src="images/paper.png" id="paper"alt="paper">PAPER</span>
+        <span class="my-pick"><img src="images/scissors.png" id="scissors" alt="scissors">SCISSORS</span>
        </div>
        <h2 class="computer">Computer Choice:</h2>
        <div class="computer-choice">
-        <span></span>
-        <span></span>
-        <span></span>
+      
+         <img src="images/rock.png" id="computer-rock" alt="computer-rock">
+        <img src="images/paper.png" id="computer-paper" alt="computer-paper">
+        <img src="images/scissors.png" id="computer-scissors" alt="computer-scissors">
+
        </div>
     <div class="game-result">
        <h2 id="result">Result: </h2>
@@ -34,11 +36,64 @@
         <h1 id="final_winner"></h1>
         </div>
     </div>
-    </div>
+    </div> 
 
 
 
 
  <script src="script.js" ></script>  
 </body>
-</html>
+</html> 
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock, Paper, Scissors Game</title>
+</head>
+
+<body>
+    <div class="first-page">
+        <button class="btn btn-one-round">ONE ROUND</button>
+        <h3>* LET'S FUN BEGIN *</h3>
+        <button class="btn btn-three-round">THREE ROUNDS</button>
+    </div>
+    <div class="container">
+        <h2>Make your choice:</h2>
+    <div id="your-choice">
+
+<span>
+    <img src="images/rock.png" id="choice-rock" alt="rock">ROCK
+</span>
+<span>
+    <img src="images/paper.png" id="choice-paper" alt="paper">PAPER
+</span>
+<span>
+    <img src="images/scissors.png" id="choice-scissors" alt="scissors">SCISSORS
+</span>
+
+    </div>
+
+        </div>
+        <h2 class="computer">Computer Choice:</h2>
+        <div id="computer-choice">
+            <img src="images/rock.png" id="computer-rock" alt="computer-rock">
+            <img src="images/paper.png" id="computer-paper" alt="computer-paper">
+            <img src="images/scissors.png" id="computer-scissors" alt="computer-scissors">
+        </div>
+        <div class="game-result">
+            <h2 id="result">Result: </h2>
+            <div id="score">
+                <div>Player: <span id="player-score"> 0 </span></div>
+                <div>Computer: <span id="computer-score"> 0 </span></div>
+                <h1 id="final_winner"></h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>  -->

@@ -4,9 +4,9 @@ body {
   background-size: cover;
   text-align: center;
 }
-.container {
+/* .container {
     display:none
-}
+} */
 .first-page {
   display: flex;
   justify-content: space-around;
@@ -63,4 +63,8 @@ h1 {
   font-size: 22px;
   font-family: "Courier New", Courier, monospace;
   color: rgb(210, 183, 234);
+}
+/* Add this CSS rule to hide computer's choices by default */
+#computer-choice img {
+  display: none;
 }
